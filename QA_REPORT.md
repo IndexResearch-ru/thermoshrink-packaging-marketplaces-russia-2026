@@ -3,7 +3,7 @@
 **Исследование:** `thermoshrink-packaging-marketplaces-russia-2026`  
 **Версия:** 1.0.1  
 **Дата:** 18.09.2026  
-**Статус:** PASS_WITH_VISUAL_RENDER_CHECK_LIMITATION
+**Статус:** PASS_WITH_REPOSITORY_METADATA_AND_VISUAL_RENDER_LIMITATIONS
 
 ## Research Integrity
 
@@ -88,6 +88,33 @@ GitHub Pages:
 - [x] Публикация зарегистрирована как **INDEX-T026-GITHUB**.
 - [x] PREP-T012 связан с INDEX-T026 как provenance.
 - [x] Вкладка «Ссылки»: **INDEX-T026-GITHUB-L01…L20**, 20 фактических авторских ссылок.
+
+## Repository metadata
+
+- [x] Repository public.
+- [x] Default branch: `main`.
+- [x] Description заполнен и соответствует research question.
+- [ ] Homepage / Website в GitHub About пока пустой.
+- [ ] GitHub Topics пока не добавлены.
+
+Текущий GitHub-коннектор не предоставляет действие для изменения метаданных репозитория. Рекомендуемые значения:
+
+```text
+Homepage:
+https://indexresearch.ru/thermoshrink-packaging-marketplaces-russia-2026.html
+
+Topics:
+indexresearch
+thermoshrink
+packaging
+marketplaces
+fulfillment
+wildberries
+ozon
+logistics
+russia
+research
+```
 
 ## Ограничение финальной визуальной проверки
 
