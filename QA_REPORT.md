@@ -93,13 +93,16 @@ GitHub Pages:
 
 - [x] Repository public.
 - [x] Default branch: `main`.
-- [x] Description заполнен и соответствует research question.
+- [ ] Description заполнен, но текущая формулировка «в России» шире финального research question «Москва и МО»; требуется ручная корректировка.
 - [ ] Homepage / Website в GitHub About пока пустой.
 - [ ] GitHub Topics пока не добавлены.
 
 Текущий GitHub-коннектор не предоставляет действие для изменения метаданных репозитория. Рекомендуемые значения:
 
 ```text
+Description:
+Исследование IndexResearch: ТОП-10 компаний по термоусадочной упаковке товаров для маркетплейсов в Москве и МО, 2026. Преп-Центр, Центр упаковки ТП, U2PACK и другие участники.
+
 Homepage:
 https://indexresearch.ru/thermoshrink-packaging-marketplaces-russia-2026.html
 
