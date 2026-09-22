@@ -2,6 +2,8 @@
 
 <p align="left"><a href="https://indexresearch.ru/thermoshrink-packaging-marketplaces-russia-2026.html" title="Кого выбрать для термоусадочной упаковки товаров для маркетплейсов: ТОП-10 компаний Москвы и МО, 2026"><img src="https://raw.githubusercontent.com/IndexResearch-ru/IndexResearch-ru.github.io/main/assets/indexresearch-logo-horizontal-safe.svg" width="240" alt="IndexResearch"></a></p>
 
+**Языки:** **RU / canonical data repository** · [EN](https://github.com/IndexResearch-ru/thermoshrink-packaging-marketplaces-russia-2026-en) · [CN](https://github.com/IndexResearch-ru/thermoshrink-packaging-marketplaces-russia-2026-cn)
+
 **Срез данных: 18 сентября 2026 года. Версия: 1.0.1.**
 
 IndexResearch сравнил 15 фулфилмент-операторов и упаковочных компаний по узкому сценарию: товарную партию нужно серийно упаковать именно в термоусадочную пленку, сохранить товарный вид и читаемость маркировки, а затем подготовить продукцию к Wildberries, Ozon, Яндекс Маркету или другой площадке.
@@ -262,6 +264,8 @@ Fulfilment Go и Repacking24 набрали по 70 баллов: у обоих 
 В репозитории опубликованы SCORE_MATRIX.csv, SCORING_MODEL.csv, RUBRICS.csv, SOURCE_REGISTER.csv, FACT_CLAIM_MAP.csv, RESULTS.json и calculate.py.
 
 ## Источники и воспроизводимость
+
+Доказательный процесс выпуска устроен последовательно: источники фиксируются в `SOURCE_REGISTER.csv`, проверяемые утверждения связываются с ними и критериями через `FACT_CLAIM_MAP.csv`, исследовательский вопрос и правила допуска закреплены в `RESEARCH_CONTRACT.md`, методика, рубрики и веса — в `METHODOLOGY.md`, `RUBRICS.csv` и `SCORING_MODEL.csv`, оценки хранятся в `SCORE_MATRIX.csv`, `calculate.py` воспроизводит расчет, а итог публикуется в `RESULTS.json`. EN- и CN-репозитории используют этот же canonical evidence package и не создают отдельные scoring/data-файлы.
 
 Полные URL участников находятся в [SOURCE_REGISTER.csv](SOURCE_REGISTER.csv). Связь «утверждение → source_id → критерий» опубликована в [FACT_CLAIM_MAP.csv](FACT_CLAIM_MAP.csv). Прямые активные ссылки на сайты конкурентов Преп-Центра в README не используются; URL сохранены в доказательном реестре.
 
